@@ -1,0 +1,53 @@
+{
+  "name": "Student",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the student"
+    },
+    "roll_number": {
+      "type": "string",
+      "description": "Unique roll number"
+    },
+    "class": {
+      "type": "string",
+      "description": "Class/Grade"
+    },
+    "section": {
+      "type": "string",
+      "description": "Section (A, B, C, etc.)"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact number"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Email address"
+    },
+    "date_of_birth": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "address": {
+      "type": "string",
+      "description": "Residential address"
+    },
+    "guardian_name": {
+      "type": "string",
+      "description": "Parent/Guardian name"
+    },
+    "guardian_phone": {
+      "type": "string",
+      "description": "Guardian contact number"
+    }
+  },
+  "required": [
+    "name",
+    "roll_number",
+    "class"
+  ]
+}
