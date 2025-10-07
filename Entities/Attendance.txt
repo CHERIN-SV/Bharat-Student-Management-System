@@ -1,0 +1,46 @@
+{
+  "name": "Attendance",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string",
+      "description": "Reference to student"
+    },
+    "student_name": {
+      "type": "string",
+      "description": "Student name for quick access"
+    },
+    "roll_number": {
+      "type": "string",
+      "description": "Student roll number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Attendance date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "present",
+        "absent",
+        "late"
+      ],
+      "description": "Attendance status"
+    },
+    "class": {
+      "type": "string",
+      "description": "Class/Grade"
+    },
+    "remarks": {
+      "type": "string",
+      "description": "Additional notes"
+    }
+  },
+  "required": [
+    "student_id",
+    "student_name",
+    "date",
+    "status"
+  ]
+}
