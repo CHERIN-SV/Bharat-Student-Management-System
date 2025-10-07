@@ -103,7 +103,6 @@ Internship Project
 
 ## 📝 Notes
 
-This application is built on the base44 platform, providing:
 - Automatic authentication
 - Cloud database management
 - Real-time data synchronization
